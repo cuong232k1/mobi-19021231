@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key, required this.title}) : super(key: key);
   final String title;
@@ -25,12 +26,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(this.title),
       ),
-      body: Center(
-          child:
-          Text(
-            'Hello World',
-          )
-      ),
+      body: Center(child: Image.asset('assets/images/s1.png')),
     );
   }
 }
